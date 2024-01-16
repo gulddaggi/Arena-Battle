@@ -1,0 +1,2 @@
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ArenaBattle.h
