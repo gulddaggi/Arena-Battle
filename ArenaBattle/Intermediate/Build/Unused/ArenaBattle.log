@@ -1,12 +1,13 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\MSI\Documents\GitHub\Arena-Battle).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\GitHub\Arena-Battle).
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "C:\GitHub\Arena-Battle\ArenaBattle\ArenaBattle.uproject" "C:\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\guldd\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for ArenaBattleEditor in 3.3981381 seconds
   Building ArenaBattleEditor...
-  Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 16 processes...
-    [1/4] ABCharacter.cpp
-    [2/4] UE4Editor-ArenaBattle-0063.lib
-       C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0063.lib 라이브러리 및 C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0063.exp 개체를 생성하고 있습니다.
-    [3/4] UE4Editor-ArenaBattle-0063.dll
-       C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0063.suppressed.lib 라이브러리 및 C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\UE4Editor-ArenaBattle-0063.suppressed.exp 개체를 생성하고 있습니다.
-    [4/4] ArenaBattleEditor.target
-  Total time in Parallel executor: 2.92 seconds
-  Total execution time: 3.79 seconds
+  Using Visual Studio 2019 14.29.30153 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 12 processes...
+    [1/6] ArenaBattle.init.gen.cpp
+    [2/6] ABWeapon.cpp
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABWeapon.cpp(17): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+    [3/6] ABWeapon.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: ""C:\Program Files\Epic Games\UE_4.27\Engine\Build\BatchFiles\Build.bat" ArenaBattleEditor Win64 Development -Project="C:\GitHub\Arena-Battle\ArenaBattle\ArenaBattle.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
