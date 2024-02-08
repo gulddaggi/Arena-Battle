@@ -1,8 +1,11 @@
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABAnimInstance.h
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABCharacter.h
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABCharacterWidget.h
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABCharacterStatComponent.h
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABGameMode.h
-C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABPlayerController.h
-C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABWeapon.h
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABPawn.h
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABWeapon.h
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABGameInstance.h
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\Fountain.h
+C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABPlayerController.h
 C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\ABItemBox.h
