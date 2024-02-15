@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\GitHub\\Arena-Battle\\ArenaBattle\\Source\\ArenaBattle\\ArenaBattle.Build.cs",
+		"C:\\GitHub\\Arena-Battle\\ArenaBattle\\Source\\ArenaBattleSetting\\ArenaBattleSetting.Build.cs",
 		"C:\\GitHub\\Arena-Battle\\ArenaBattle\\Source\\ArenaBattle.Target.cs",
 		"C:\\GitHub\\Arena-Battle\\ArenaBattle\\Source\\ArenaBattleEditor.Target.cs"
 	],
