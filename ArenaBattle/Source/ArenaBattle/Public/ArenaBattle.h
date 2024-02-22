@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "ABSaveGame.h"
 #include "EngineMinimal.h"
 
 UENUM(BlueprintType)

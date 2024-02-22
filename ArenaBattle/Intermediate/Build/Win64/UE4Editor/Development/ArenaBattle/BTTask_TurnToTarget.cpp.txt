@@ -1,6 +1,10 @@
 C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h
 C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\Public\BTTask_TurnToTarget.h
 C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\Public\ArenaBattle.h
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattle\Public\ABSaveGame.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SaveGame.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SaveGame.generated.h
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle\ABSaveGame.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineMinimal.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
