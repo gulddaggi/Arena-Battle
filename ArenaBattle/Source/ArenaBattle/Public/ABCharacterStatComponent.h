@@ -35,6 +35,8 @@ public:
 
 	float GetHPRatio();
 
+	int32 GetDropExp() const;
+
 	FOnHPIsZeroDelegate OnHPIsZero;
 	FOnHPChangedDelegate OnHPChanged;
 

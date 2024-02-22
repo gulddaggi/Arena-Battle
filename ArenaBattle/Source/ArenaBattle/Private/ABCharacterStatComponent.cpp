@@ -76,4 +76,7 @@ float UABCharacterStatComponent::GetAttack()
 	return CurrentStatData->Attack;
 }
 
-
+int32 UABCharacterStatComponent::GetDropExp() const
+{
+	return CurrentStatData->DropExp;
+}

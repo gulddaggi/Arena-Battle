@@ -22,6 +22,10 @@ public:
 
 	class UABHUDWidget* GetHUDWidget() const;
 
+	void NPCKill(class AABCharacter* KilledNPC) const;
+
+	void AddGameScore() const;
+
 protected:
 	virtual void BeginPlay() override;
 	//virtual void SetupInputComponent() override;
@@ -31,4 +35,7 @@ protected:
 
 private:
 	class UABHUDWidget* HUDWidget;
+
+	UPROPERTY()
+	class AABPlayerState* ABPlayerState;
 };

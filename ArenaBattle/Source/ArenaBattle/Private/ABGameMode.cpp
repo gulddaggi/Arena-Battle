@@ -5,12 +5,14 @@
 #include "ABCharacter.h"
 #include "ABPlayerController.h"
 #include "ABPlayerState.h"
+#include "ABGameState.h"
 
 AABGameMode::AABGameMode()
 {
 	DefaultPawnClass = AABCharacter::StaticClass();
 	PlayerControllerClass = AABPlayerController::StaticClass();
 	PlayerStateClass = AABPlayerState::StaticClass();
+	GameStateClass = AABGameState::StaticClass();
 }
 
 void AABGameMode::PostLogin(APlayerController* NewPlayer)
@@ -22,3 +24,23 @@ void AABGameMode::PostLogin(APlayerController* NewPlayer)
 	ABPlayerState->InitPlayerData();
 }
 
+void AABGameMode::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	ABGameState = Cast<AABGameState>(GameState);
+}
+
+void AABGameMode::AddScore(AABPlayerController* ScoredPlayer)
+{
+	for (FConstPlayerControllerIterator It = GetWorld()->GetPlayerControllerIterator(); It; ++It)
+	{
+		const auto ABPlayerController = Cast<AABPlayerController>(It->Get());
+		if ((nullptr != ABPlayerController) && (ScoredPlayer == ABPlayerController))
+		{
+			ABPlayerController->AddGameScore();
+			break;
+		}
+	}
+
+	ABGameState->AddGameScore();
+}

@@ -1,2 +1,2 @@
-C:\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\Definitions.ArenaBattleSetting.h
-C:\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattleSetting\Public\ArenaBattleSetting.h
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattleSetting\Definitions.ArenaBattleSetting.h
+C:\Users\MSI\Documents\GitHub\Arena-Battle\ArenaBattle\Source\ArenaBattleSetting\Public\ArenaBattleSetting.h
