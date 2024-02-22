@@ -22,7 +22,14 @@ public:
 
 	void AddGameScore();
 
+	void SetGameCleared();
+
+	bool IsGameCleared() const;
+
 private:
 	UPROPERTY(Transient)
 	int32 TotalGameScore;
+
+	UPROPERTY(Transient)
+	bool bGameCleared;
 };
