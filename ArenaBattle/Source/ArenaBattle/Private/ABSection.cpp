@@ -81,7 +81,8 @@ void AABSection::SetState(ESectionState NewState)
 {
 	switch (NewState)
 	{
-		case AABSection::ESectionState::READY:
+		case ESectionState::READY:
+		{
 			Trigger->SetCollisionProfileName(TEXT("ABTrigger"));
 			for (UBoxComponent* GateTrigger : GateTriggers)
 			{
@@ -90,8 +91,10 @@ void AABSection::SetState(ESectionState NewState)
 
 			OperateGates(true);
 			break;
+		}
 
-		case AABSection::ESectionState::BATTLE:
+		case ESectionState::BATTLE:
+		{	
 			Trigger->SetCollisionProfileName(TEXT("NoCollision"));
 			for (UBoxComponent* GateTrigger : GateTriggers)
 			{
@@ -104,11 +107,12 @@ void AABSection::SetState(ESectionState NewState)
 			GetWorld()->GetTimerManager().SetTimer(SpawnItemBoxTimerHandle, FTimerDelegate::CreateLambda([this]() -> void {
 				FVector2D RandXY = FMath::RandPointInCircle(600.0f);
 				GetWorld()->SpawnActor<AABItemBox>(GetActorLocation() + FVector(RandXY, 30.0f), FRotator::ZeroRotator);
-				}), ItemBoxSpawnTime, false);
+			}), ItemBoxSpawnTime, false);
 
 			break;
-
-		case AABSection::ESectionState::COMPLETE:
+		}
+		case ESectionState::COMPLETE:
+		{
 			Trigger->SetCollisionProfileName(TEXT("NoCollision"));
 			for (UBoxComponent* GateTrigger : GateTriggers)
 			{
@@ -117,9 +121,7 @@ void AABSection::SetState(ESectionState NewState)
 
 			OperateGates(true);
 			break;
-
-		default:
-			break;
+		}
 	}
 
 	CurrentState = NewState;
