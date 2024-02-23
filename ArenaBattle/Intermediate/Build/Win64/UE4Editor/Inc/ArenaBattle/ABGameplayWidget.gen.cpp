@@ -132,9 +132,9 @@ void EmptyLinkFunctionForGeneratedCodeABGameplayWidget() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ResumeButton;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnToTileButton_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ReturnToTitleButton_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnToTileButton;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnToTitleButton;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RetryGameButton_MetaData[];
 #endif
@@ -167,12 +167,12 @@ void EmptyLinkFunctionForGeneratedCodeABGameplayWidget() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ResumeButton = { "ResumeButton", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABGameplayWidget, ResumeButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ResumeButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ResumeButton_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTileButton_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTitleButton_MetaData[] = {
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/ABGameplayWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTileButton = { "ReturnToTileButton", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABGameplayWidget, ReturnToTileButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTileButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTileButton_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTitleButton = { "ReturnToTitleButton", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABGameplayWidget, ReturnToTitleButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTitleButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTitleButton_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_RetryGameButton_MetaData[] = {
 		{ "EditInline", "true" },
@@ -182,7 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameplayWidget() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_RetryGameButton = { "RetryGameButton", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UABGameplayWidget, RetryGameButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_RetryGameButton_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_RetryGameButton_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UABGameplayWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ResumeButton,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTileButton,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_ReturnToTitleButton,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UABGameplayWidget_Statics::NewProp_RetryGameButton,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UABGameplayWidget_Statics::StaticCppClassTypeInfo = {
@@ -212,7 +212,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameplayWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameplayWidget, 2887332188);
+	IMPLEMENT_CLASS(UABGameplayWidget, 1277592643);
 	template<> ARENABATTLE_API UClass* StaticClass<UABGameplayWidget>()
 	{
 		return UABGameplayWidget::StaticClass();

@@ -15,10 +15,10 @@ void UABGameplayWidget::NativeConstruct()
 		ResumeButton->OnClicked.AddDynamic(this, &UABGameplayWidget::OnResumeClicked);
 	}
 
-	ReturnToTileButton = Cast<UButton>(GetWidgetFromName(TEXT("btnReturnToTile")));
-	if (nullptr != ReturnToTileButton)
+	ReturnToTitleButton = Cast<UButton>(GetWidgetFromName(TEXT("btnReturnToTitle")));
+	if (nullptr != ReturnToTitleButton)
 	{
-		ReturnToTileButton->OnClicked.AddDynamic(this, &UABGameplayWidget::OnReturnToTitleClicked);
+		ReturnToTitleButton->OnClicked.AddDynamic(this, &UABGameplayWidget::OnReturnToTitleClicked);
 	}
 
 	RetryGameButton = Cast<UButton>(GetWidgetFromName(TEXT("btnRetryGame")));

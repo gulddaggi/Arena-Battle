@@ -13,7 +13,6 @@ AABPlayerState::AABPlayerState()
 	Exp = 0;
 	SaveSlotName = TEXT("Player1");
 	CharacterIndex = 0;
-	SavePlayerData();
 }
 
 int32 AABPlayerState::GetGameScore() const

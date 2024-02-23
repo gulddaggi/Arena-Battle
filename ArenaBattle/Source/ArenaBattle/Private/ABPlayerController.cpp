@@ -66,7 +66,7 @@ void AABPlayerController::BeginPlay()
 
 	HUDWidget = CreateWidget<UABHUDWidget>(this, HUDWidgetClass);
 	ABCHECK(nullptr != HUDWidget);
-	HUDWidget->AddToViewport();
+	HUDWidget->AddToViewport(1);
 
 	ResultWidget = CreateWidget<UABGameplayResultWidget>(this, ResultWidgetClass);
 	ABCHECK(nullptr != ResultWidget);

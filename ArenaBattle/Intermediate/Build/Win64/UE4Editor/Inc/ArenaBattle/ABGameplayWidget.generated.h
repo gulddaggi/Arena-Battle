@@ -74,7 +74,7 @@ public: \
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABGameplayWidget_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ResumeButton() { return STRUCT_OFFSET(UABGameplayWidget, ResumeButton); } \
-	FORCEINLINE static uint32 __PPO__ReturnToTileButton() { return STRUCT_OFFSET(UABGameplayWidget, ReturnToTileButton); } \
+	FORCEINLINE static uint32 __PPO__ReturnToTitleButton() { return STRUCT_OFFSET(UABGameplayWidget, ReturnToTitleButton); } \
 	FORCEINLINE static uint32 __PPO__RetryGameButton() { return STRUCT_OFFSET(UABGameplayWidget, RetryGameButton); }
 
 

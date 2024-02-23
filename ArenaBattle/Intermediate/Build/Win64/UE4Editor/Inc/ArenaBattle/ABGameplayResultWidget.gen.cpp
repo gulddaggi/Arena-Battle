@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameplayResultWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UABGameplayResultWidget, 3346022777);
+	IMPLEMENT_CLASS(UABGameplayResultWidget, 649086866);
 	template<> ARENABATTLE_API UClass* StaticClass<UABGameplayResultWidget>()
 	{
 		return UABGameplayResultWidget::StaticClass();

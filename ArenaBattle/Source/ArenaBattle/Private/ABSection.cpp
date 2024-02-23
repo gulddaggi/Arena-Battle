@@ -52,7 +52,7 @@ AABSection::AABSection()
 		NewGate->SetRelativeLocation(FVector(0.0f, -80.5f, 0.0f));
 		GateMeshes.Add(NewGate);
 
-		UBoxComponent* NewGateTrigger = CreateDefaultSubobject<UBoxComponent>(*GateSocket.ToString().Append("Trigger"));
+		UBoxComponent* NewGateTrigger = CreateDefaultSubobject<UBoxComponent>(*GateSocket.ToString().Append(TEXT("Trigger")));
 		NewGateTrigger->SetBoxExtent(FVector(100.0f, 100.0f, 300.0f));
 		NewGateTrigger->SetupAttachment(RootComponent, GateSocket);
 		NewGateTrigger->SetRelativeLocation(FVector(70.0f, 0.0f, 250.0f));
@@ -183,7 +183,6 @@ void AABSection::OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedCompon
 
 void AABSection::OnNPCSpawn()
 {
-	GetWorld()->SpawnActor<AABCharacter>(GetActorLocation() + FVector::UpVector * 88.0f, FRotator::ZeroRotator);
 	auto KeyNPC = GetWorld()->SpawnActor<AABCharacter>(GetActorLocation() + FVector::UpVector * 88.0f, FRotator::ZeroRotator);
 	if (nullptr != KeyNPC)
 	{

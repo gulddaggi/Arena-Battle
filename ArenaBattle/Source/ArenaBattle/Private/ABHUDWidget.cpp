@@ -12,6 +12,7 @@ void UABHUDWidget::BindCharacterStat(UABCharacterStatComponent* CharacterStat)
 	ABCHECK(nullptr != CharacterStat);
 	CurrentCharacterStat = CharacterStat;
 	CharacterStat->OnHPChanged.AddUObject(this, &UABHUDWidget::UpdateCharacterStat);
+	UpdateCharacterStat();
 }
 
 void UABHUDWidget::BindPlayerState(AABPlayerState* PlayerState)
@@ -19,6 +20,7 @@ void UABHUDWidget::BindPlayerState(AABPlayerState* PlayerState)
 	ABCHECK(nullptr != PlayerState);
 	CurrentPlayerState = PlayerState;
 	PlayerState->OnPlayerStateChanged.AddUObject(this, &UABHUDWidget::UpdatePlayerState);
+	UpdatePlayerState();
 }
 
 void UABHUDWidget::NativeConstruct()

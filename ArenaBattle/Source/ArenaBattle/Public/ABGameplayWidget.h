@@ -31,7 +31,7 @@ protected:
 	class UButton* ResumeButton;
 
 	UPROPERTY()
-	class UButton* ReturnToTileButton;
+	class UButton* ReturnToTitleButton;
 
 	UPROPERTY()
 	class UButton* RetryGameButton;
